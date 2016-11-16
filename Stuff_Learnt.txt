@@ -1,0 +1,18 @@
+
+
+Stuff I've learnt:
+
+
+-Git
+
+-Node.js
+
+-NPM
+
+-Gulp
+
+-CSS Architecture
+
+-PostCSS
+
+-BEM
