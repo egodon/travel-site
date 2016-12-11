@@ -16,3 +16,9 @@ Stuff I've learnt:
 -PostCSS
 
 -BEM
+
+-Babel
+
+-Webpack
+
+-Waypoints
