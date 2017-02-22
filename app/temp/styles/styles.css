@@ -1300,8 +1300,7 @@ Instead edit gulp/templates/sprite */
 }
 
 .primary-nav {
-	padding-top: 10px;
-
+    padding-top: 10px;
 }
 
 @media (min-width: 800px) {
@@ -1344,14 +1343,7 @@ Instead edit gulp/templates/sprite */
 }
 
 .primary-nav li:last-child {
-  padding-right: 0;
-}
-
-@media (min-width: 800px) {
-
-  .primary-nav li:last-child {
-    padding-top: 20px;
-  }
+  padding-right: 20px;
 }
 
 .primary-nav a {
@@ -1359,7 +1351,7 @@ Instead edit gulp/templates/sprite */
   font-weight: 300;
   text-decoration: none;
   display: block;
-  padding: 5px 8px;
+  padding: 5px 10px;
   font-size: .8rem;
   background-color: rgba(47,85,114, 0.5);
 }
