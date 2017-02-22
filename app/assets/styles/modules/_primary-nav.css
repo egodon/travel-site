@@ -10,7 +10,7 @@
 		@mixin atMedium {
 			float: right;
 		}
-		
+
 	}
 
 	ul {
@@ -30,7 +30,7 @@
 		}
 	}
 
-	li: last-child {
+	li:last-child {
 		padding-right: 0;
 		@mixin atMedium {
 			padding-top: 20px;

@@ -680,7 +680,7 @@ a {
 @media (min-width: 1010px) {
 
   .page-section--testimonials.lazyloaded {
-    background: url('/assets/images/testimonials-bg.jpg') top center no-repeat;
+    background: url('../../assets/images/testimonials-bg.jpg') top center no-repeat;
     background-size: cover;
   }
 }
@@ -1025,11 +1025,11 @@ a {
 Instead edit gulp/templates/sprite */
 
 .icon {
-      background-image: url('/assets/images/sprites/sprite-8eb89099.svg');
+      background-image: url('../../assets/images/sprites/sprite-8eb89099.svg');
     }
 
 .no-svg .icon {
-      background-image: url('/assets/images/sprites/');
+      background-image: url('../../assets/images/sprites/');
     }
 
 .icon--clear-view-escapes {
@@ -1294,7 +1294,7 @@ Instead edit gulp/templates/sprite */
 
 .site-header__menu-content--is-visible {
   opacity: 1;
-  z-index: 1a;
+  z-index: 1;
   -webkit-transform: scale(1);
           transform: scale(1);
 }
@@ -1343,13 +1343,13 @@ Instead edit gulp/templates/sprite */
   }
 }
 
-.primary-nav li: last-child {
+.primary-nav li:last-child {
   padding-right: 0;
 }
 
 @media (min-width: 800px) {
 
-  .primary-nav li: last-child {
+  .primary-nav li:last-child {
     padding-top: 20px;
   }
 }
@@ -1392,19 +1392,19 @@ Instead edit gulp/templates/sprite */
 }
 
 .modal {
-	position: fixed;
-	z-index: 5;
-	background-color: rgba(255, 255, 255, .94);
-	top: 0;
-	bottom: 0;
-	left: 0;
-	right: 0;
-	opacity: 0;
-	visibility: hidden;
-	-webkit-transform: scale(1.2);
-	        transform: scale(1.2);
-	-webkit-transition: all .3s ease-out;
-	transition: all .3s ease-out;
+  position: fixed;
+  z-index: 5;
+  background-color: rgba(255, 255, 255, .94);
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  opacity: 0;
+  visibility: hidden;
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+  -webkit-transition: all .3s ease-out;
+  transition: all .3s ease-out;
 }
 
 .modal--is-visible {
@@ -1439,11 +1439,11 @@ Instead edit gulp/templates/sprite */
   -webkit-transform-origin: 100% 0;
           transform-origin: 100% 0;
   color: #2F5572;
+  cursor: pointer;
 }
 
-.modal__close:hover{
+.modal__close:hover {
   color: #D59541;
-  cursor: pointer;
 }
 
 .social-icons {
